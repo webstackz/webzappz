@@ -1,19 +1,31 @@
 {
-  "name": "simple-node-app-heroku",
-  "version": "1.0.1",
-  "description": "A simple demo node js app for Heroku deployment tutorial.",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
-  },
+  "name": "inspireNuggetsSlackBot",
+  "version": "1.0.0",
+  "description": "A simple Slackbot that displays random inspiring techie quotes and jokes for developers/designers.",
+  "main": "index.js",
   "engines": {
-    "node": "10.16.0",
-    "npm": "6.9.0"
+    "node": "10.16.0"
   },
-  "author": "Digamber",
-  "license": "ISC",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BolajiAyodeji/inspireNuggetsSlackBot.git"
+  },
+  "author": "Bolaji Ayodeji",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BolajiAyodeji/inspireNuggetsSlackBot/issues"
+  },
+  "homepage": "https://github.com/BolajiAyodeji/inspireNuggetsSlackBot#readme",
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
   "dependencies": {
-    "express": "^4.17.1"
+    "axios": "^0.21.1",
+    "dotenv": "^8.0.0",
+    "pingmydyno": "^1.5.1",
+    "slackbots": "^1.2.0"
   }
 }
