@@ -3,7 +3,7 @@
  */
 var express = require('express')
 var stylus = require('stylus')
-var nib = require('nib')
+var nib1 = require('nib')
 
 
 var app = express()
