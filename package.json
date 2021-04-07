@@ -4,11 +4,11 @@
   "description": "Node",
   "main": "index.js",
   "engines": {
-    "node": "10.16.0"
+    "node": "14.15.4"
   },
   "scripts": {
     "start": "nodemon index.js"
-  },  
+  },
   "author": "Node",
   "license": "MIT",
   "devDependencies": {
