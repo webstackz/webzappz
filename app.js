@@ -7,7 +7,7 @@ var express = require('express')
 
 
 var app = express()
-
+var app2 = express()
 function compile(str, path) {
   return stylus(str)
     .set('filename', path)
