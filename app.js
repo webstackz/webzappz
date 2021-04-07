@@ -2,8 +2,8 @@
  * Module dependencies
  */
 var express = require('express')
-  , stylus = require('stylus')
-  , nib = require('nib')
+var stylus = require('stylus')
+var nib = require('nib')
 
 
 var app = express()
