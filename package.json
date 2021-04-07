@@ -1,20 +1,12 @@
 {
-  "name": "Node",
-  "version": "1.0.0",
-  "description": "Node",
-  "main": "index.js",
-  "engines": {
-    "node": "14.15.4"
-  },
-  "scripts": {
-    "start": "nodemon index.js"
-  },
-  "author": "Node",
-  "license": "MIT",
-  "devDependencies": {
-    "nodemon": "^1.19.1"
-  },
+  "name": "MySite",
+  "version": "0.0.1",
+  "private": "true",
+  "main": "app.js",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "3.0.0alpha4",
+    "nib": "^1.0.4",
+    "stylus": "^0.49.1",
+    "jade": "^1.7.0"
   }
 }
